@@ -26,7 +26,8 @@
 1.  依赖库的版本问题：安装教程中是我使用的版本。 更新或者更旧的版本没有测试过，但也许可以。
 2.  如果你的开发板与我不同，那么接线可能不同，必须修改PinOut
 // PinOuts
-#define TFT_CS     D1
-#define TFT_RST    D2
-#define TFT_RS     D3   
-#define TFT_SDI    D7   
+#define TFT_CS     D1  
+#define TFT_RST    D2  
+#define TFT_RS     D3     
+#define TFT_SDI    D7     
+

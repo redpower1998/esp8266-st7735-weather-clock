@@ -1,7 +1,7 @@
 # ESP8266-ST7735-Weather-Clock
 
 #### 介绍
-基于ESP8266，ST7735 和Arduino 的自动天气预报，参考了ESP8266-ST7735-weather-station 项目。
+基于ESP8266，ST7735的自动天气预报，参考了ESP8266-ST7735-weather-station 项目。
 
 #### 软件架构
 软件架构说明
@@ -11,7 +11,7 @@
 ![运行效果](https://images.gitee.com/uploads/images/2021/0326/081338_21b06cf9_335951.png "屏幕截图.png")
 #### 安装教程
 
-1.  安装Arduino，可以通过Windows10 的应用程序商店安装
+1.  安装Arduino IDE，可以通过Windows10 的应用程序商店安装  （只用了IDE，硬件不需要Arduino）
 2.  安装开发板（从开发板管理器安装）NodeMCU 1.0
 3.  安装依赖库（从管理库安装）Adafruit_GFX 1.10.6
 4.  安装依赖库（从管理库安装）Adafruit_ST7735  1.7.0
@@ -31,3 +31,6 @@
 #define TFT_RS     D3     
 #define TFT_SDI    D7     
 
+
+#### 许可协议
+木兰宽松许可证, 第2版

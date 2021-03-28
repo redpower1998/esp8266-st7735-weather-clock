@@ -6,7 +6,7 @@ const char* ssid = "XXXXXXXXx";
 const char* password = "XXXXXXXXXXX";
 
 
-String APIKEY = "XXXXXXXXXXXXXXXXX"; //openweathermap.org
+String APIKEY = "XXXXXXXXXXXXXXXXX"; //openweathermap.org APIkey
 String CityID = "XXXXXXX";  //ID not name
 
 const int timezone = 8;

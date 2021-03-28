@@ -1,5 +1,7 @@
 # ESP8266-ST7735-Weather-Clock
 
+[中文在最后]
+
 #### Introduction 
 The automatic weather forecast based on ESP8266 and ST7735 refers to the ESP8266-ST7735-weather-station project. 
 

@@ -1,5 +1,41 @@
 # ESP8266-ST7735-Weather-Clock
 
+#### Introduction 
+The automatic weather forecast based on ESP8266 and ST7735 refers to the ESP8266-ST7735-weather-station project. 
+
+#### 软件架构
+Architecture description 
+![Wiring diagram ](https://images.gitee.com/uploads/images/2021/0326/080452_e6d8a2cb_335951.png "屏幕截图.png")
+
+running result 
+![running result ](https://images.gitee.com/uploads/images/2021/0328/175526_1bd8c44e_335951.png "屏幕截图.png")
+
+#### Installation tutorial 
+
+1. Install the Arduino IDE, which can be installed through the Windows 10 application store (only IDE is used, the hardware does not require Arduino)
+2. Install the development board (install from the development board manager) NodeMCU 1.0
+3. Install the dependent library (install from the management library) Adafruit_GFX 1.10.6
+4. Install the dependent library (install from the management library) Adafruit_ST7735 1.7.0
+5. Install the dependent library (install from the management library) ArduinoJson 5.10.1
+6. Modify the ssid, password (wifi hotspot and password) in the configure.h header file
+7. Modify APIKEY and CityID in configure.h header file. Please apply for this for free at openweathermap.org.
+8. Verification/Compile
+9. Upload to the development board 
+
+#### Instructions for use 
+
+1. The version of the dependent library: the version I used in the installation tutorial. Newer or older versions have not been tested, but it may be possible.  
+2. If your development board is different from mine, then the wiring may be different, you must modify the Pins (in configure.h)   
+// Pins  
+#define TFT_CS     D1  
+#define TFT_RST    D2  
+#define TFT_RS     D3     
+#define TFT_SDI    D7     
+
+
+#### Agreement
+Mulan License, Version 2 
+
 #### 介绍
 基于ESP8266，ST7735的自动天气预报，参考了ESP8266-ST7735-weather-station 项目。
 

@@ -180,6 +180,7 @@ bool isDay()
 }
 // Print WeatherIcon based on id
 void printWeatherIcon(int id) {
+  tft.fillRect(4, 10, 50, 38, ST77XX_BLACK);
   switch (id) {
     case 800:   //Clear
       if (isDay())
